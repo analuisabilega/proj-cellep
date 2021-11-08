@@ -1,0 +1,81 @@
+body{
+  background-image: linear-gradient(to Left, black #645E5E ); 
+}
+
+#logo{
+   text-align:center;
+   background-color: black;   
+    position: relative;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 400;
+    padding: 30px;
+    border: solid white;
+    
+}
+
+#logo img{
+  max-width: 90vw;
+}
+
+
+
+
+#Titulo{
+  color: white;
+    text-align: center;
+  font-family : Times, "Times New Roman", serif;
+  
+}
+
+#paragrafo1{
+  color: white;
+  text-align: center; 
+  font-family : Times, "Times New Roman", serif;
+  font-size: 20px;
+  padding: 10px;
+
+
+}
+
+.nav-link, .dropdown-item{
+  color: white;
+  font-family : Times, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 700 !important;
+    letter-spacing: 4px;
+    text-align: center !important;
+    position: sticky;
+    letter-spacing: 4px;
+    
+
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #4d4b4c !important;
+}
+
+
+#band{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#band p{
+  margin-top: 10px;
+  padding: 50px;
+}
+
+#band img{
+  width: 40%;
+  
+}
+
+
+#contato{
+  padding: 50px;
+}
+
